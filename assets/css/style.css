@@ -11,6 +11,9 @@ body {
 
 p {
     font-size: 16px;
+    background-color: lightskyblue;
+    padding: 20px;
+    display: inline-block;
 }
 
 header {
@@ -23,7 +26,7 @@ header {
 
 }
 
-a {
+header a {
     color: white;
     text-decoration: none;
 }
@@ -62,19 +65,17 @@ main {
 aside {
 color: lightskyblue;
 float: left;
-margin-left: 20px;
+margin-left: 5%;
 
-padding-bottom:20%;
+
+
 
 
 }
 
 h2{
-    margin: 20px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 250px;
-font-size: 30px;
+    font-size: 30px;
+    margin-top:400px;
 
 }
 
@@ -90,11 +91,16 @@ border-left: 5px solid lightskyblue;
 }
 
 button{
-    color: white;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+    
     
 }
 .btn {
-padding-bottom: 30%;
+padding-bottom: 5%;
+
+
 }
 
 .btn #click-1 {
@@ -108,16 +114,17 @@ padding-bottom: 30%;
 .btn #click-2 {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_nevOxVLE0muhRd4BOHhI693vRSG6M-k5A&usqp=CAU);
     width: 49%;
-    height: 100px;
-    display: inline-block;
+    height: 150px;
+    border: 5px solid lightskyblue;
+    
     
 }
 
 .btn #click-3 {
    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrTtMkMaR7YuBjNHRWRGwgfaSc8S1c59jdNQ&usqp=CAU);
    width:49%;
-   height: 100px;
-   float: right;
+   height: 150px;
+   border: 5px solid lightskyblue;
    display: inline-block;
    margin-bottom: 10px;
 }
@@ -125,16 +132,56 @@ padding-bottom: 30%;
 .btn #click-4 {
     background-image: url(https://media.istockphoto.com/id/1370884809/photo/futuristic-dots-pattern-on-dark-background-colored-music-wave-big-data-technology-or-science.jpg?b=1&s=170667a&w=0&k=20&c=926kdy726O7Xhpw1gtV44ZifqSXI_QsqtDd-zrUiDus=);
     width: 49%;
-    height: 100px;
-    display: inline-block;
+    height: 150px;
+    border: 5px solid lightskyblue;
+    
 }
 .btn #click-5 {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ63p4YkwedVq36fqTEHmGl53XO46CtOuHFg&usqp=CAU);
     width: 49%;
-    height: 100px;
-    float: right;
+    height: 150px;
+    border: 5px solid lightskyblue;
     display: inline-block;
+    
+    
+    
 }
 
+div {
+    background-color: lightskyblue;
+    width: 150px;
+    height: 60px;  
+    position: absolute;
+    
 
+    
+}
 
+button:hover {
+    opacity: 1;
+}
+#header-1 {
+margin-top: 80px;
+}
+#header-2 {
+    margin-top: 250px;
+}
+
+#header-3 {
+    margin-top: 830px;
+}
+
+footer {
+    float: right;
+    width: 79.6%;
+    border-left: 5px solid lightskyblue ;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+footer p {
+    font-size: 16px;
+    background-color: lightskyblue;
+    padding: 20px;
+    display: inline-block;
+    
+}
