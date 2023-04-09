@@ -223,3 +223,45 @@ opacity: 1;
     opacity: 1;
 }
 
+@media screen and (max-width:480px) {
+    .text{
+        font-size: 12px;
+    
+    }
+    main{
+        width: 50%;
+        
+    }
+    aside{
+        width: 30%;
+    }
+    #header-2{
+        margin-top: 1250px;
+    }
+    #header-3
+    {
+        margin-top: 1000px;
+    }
+    footer{
+        width: 50%;
+    }
+    .button1{
+        width:200px;
+    }
+    .button2{
+        width: 200px;
+    }
+    .button3{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .button4{
+        width:200px;
+        margin-bottom: 10px;
+        
+    }
+    .button5{
+        width:200px;
+        margin-bottom: 10px;
+    }
+}
