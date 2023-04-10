@@ -1,9 +1,10 @@
+/*format for profile picture*/
 .profile {
 border-radius: 50%;
 width: 100px;
 height: 100px;
 }
-
+/*format for body and paragraphs throughout the page*/
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,11 +15,11 @@ p {
     padding: 20px;
     display: inline-block;
 }
-
+/*Format for the header,its placements and styling*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightskyblue;
+    background-image: url(https://img.freepik.com/premium-photo/blue-sky-with-small-light-dark-clouds_199743-8368.jpg?size=626&ext=jpg&ga=GA1.1.1063561036.1680983924&semt=ais);
     color: white;
     align-items: center;
     display: flex;
@@ -26,11 +27,11 @@ header {
 
 header a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 header h1 {
-    color: black;
+    color: white;
     display: inline-block;
     font-size: 48px;
     margin:auto;
@@ -53,10 +54,7 @@ header nav ul li {
     
 }
 
-main {
-    float:right;
-    width:80%;
-}
+/*Formatting,style and position of the aside tag for the titles of the sections*/
 
 aside {
 color: lightskyblue;
@@ -65,17 +63,35 @@ margin-left: 5%;
 text-align: right;
 background-color: grey;
 padding:10px;
+padding-bottom: 20px;
 }
 
 h2{
     font-size: 32px;
     margin-top:400px;
     margin-left: auto;
-    text-align: center;
+    text-align: right;
     word-wrap: break-word;
     
 }
+#header-1 {
+    margin-top: 40px;
 
+}
+#header-2 {
+    margin-top: 280px;
+    
+}
+
+#header-3 {
+    margin-top: 700px;
+    
+}
+/*Formatting,positions,and styling for the main content of the page*/
+main {
+    float:right;
+    width:80%;
+}
 section {
     
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -85,11 +101,14 @@ margin-top: 40px;
 border-left: 5px solid lightskyblue; 
 }
 
+/*Classes for the buttons in the main content and their formatting*/
 .button-group{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 5%;
     
+    
 }
+
 .button1{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7I-Ni4C8uH8MqnfmmmZmHO7b-Uj60PnVSgg&usqp=CAU);
     width: 100%;
@@ -97,6 +116,9 @@ border-left: 5px solid lightskyblue;
     margin-bottom: 10px;
     border: 10px solid lightskyblue;
     opacity: 0.8;
+    padding: 0;
+    display: flex; 
+    align-items: flex-end; 
 }
 .button2{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZZ0ovNq97M0wPZje_8SAnOLoE3iVcDPd3Hg&usqp=CAU);
@@ -106,6 +128,7 @@ border-left: 5px solid lightskyblue;
     margin-bottom: 10px;
     border: 10px solid lightskyblue;
     opacity: 0.8;
+    padding: 0;  
     
 }
 .button3{
@@ -114,6 +137,7 @@ border-left: 5px solid lightskyblue;
     height: 150px;
     border: 10px solid lightskyblue;
     opacity: 0.8;
+    padding: 0; 
 }
 .button4{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG49Zb2Y_NoHw3muShELHhgUbGXIo_4JE6eQ&usqp=CAU);
@@ -122,6 +146,7 @@ border-left: 5px solid lightskyblue;
     margin-right: 17px;
     border: 10px solid lightskyblue;
     opacity: 0.8;
+    padding: 0; 
 
 }
 .button5{
@@ -130,15 +155,18 @@ border-left: 5px solid lightskyblue;
     height: 150px;
     border: 10px solid lightskyblue;
     opacity: 0.8;
+    padding: 0; 
 }
 .div1 {
     word-wrap:break-word;
     background-color: lightskyblue;
     width:100px;
     height:45px;
-    text-align: center;
     padding: 10px;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 .div2 {
     
@@ -148,6 +176,11 @@ border-left: 5px solid lightskyblue;
     height:45px;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 55px;
 }
 
 .div3{
@@ -158,6 +191,7 @@ border-left: 5px solid lightskyblue;
     height:45px;
     text-align: center;
     padding: 10px;
+    margin-top: 40px;
     
 }
 .div4{
@@ -167,8 +201,8 @@ border-left: 5px solid lightskyblue;
     width:100px;
     height:45px;
     text-align: center;
-    
     padding: 10px;
+    margin-top: 40px;
 }
 .div5{
     
@@ -178,20 +212,9 @@ border-left: 5px solid lightskyblue;
     height:45px;
     text-align: center;
     padding: 10px;
+    margin-top: 40px;
 }
-
-
-#header-1 {
-margin-top: 40px;
-}
-#header-2 {
-    margin-top: 280px;
-}
-
-#header-3 {
-    margin-top: 700px;
-}
-
+/*Formatting for the footer and its placement/style on the page*/
 footer {
     float: right;
     width: 79.6%;
@@ -204,25 +227,30 @@ footer p {
     background-color: lightskyblue;
     padding: 20px;
     margin-left: 2%;
-    
+    text-decoration: underline;
 }
-
+/*Opacity attributes for the buttons when hovered*/
 .button1:hover{
 opacity: 1;
+cursor: pointer;
 }
 .button2:hover{
     opacity: 1;
+    cursor: pointer;
 }
 .button3:hover{
     opacity: 1;
+    cursor: pointer;
 }
 .button4:hover{
     opacity: 1;
+    cursor: pointer;
 }
 .button5:hover{
     opacity: 1;
+    cursor: pointer;
 }
-
+/*Media query for the page when opened on a mobile device*/
 @media screen and (max-width:480px) {
     .text{
         font-size: 12px;
