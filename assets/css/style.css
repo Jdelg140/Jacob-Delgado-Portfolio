@@ -64,11 +64,12 @@ text-align: right;
 background-color: grey;
 padding:10px;
 padding-bottom: 20px;
+width: 15%;
 }
 
 h2{
     font-size: 32px;
-    margin-top:400px;
+    margin-top:400px; 
     margin-left: auto;
     text-align: right;
     word-wrap: break-word;
@@ -90,7 +91,7 @@ h2{
 /*Formatting,positions,and styling for the main content of the page*/
 main {
     float:right;
-    width:80%;
+    width:75%;
 }
 section {
     
@@ -105,13 +106,16 @@ border-left: 5px solid lightskyblue;
 .button-group{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 5%;
-    
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .button1{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7I-Ni4C8uH8MqnfmmmZmHO7b-Uj60PnVSgg&usqp=CAU);
     width: 100%;
+    box-sizing: border-box;
     height: 300px;
     margin-bottom: 10px;
     border: 10px solid lightskyblue;
@@ -120,78 +124,69 @@ border-left: 5px solid lightskyblue;
     display: flex; 
     align-items: flex-end; 
 }
-.button2{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZZ0ovNq97M0wPZje_8SAnOLoE3iVcDPd3Hg&usqp=CAU);
+.portfolio-project{
     width: 49%;
     height: 150px;
-    margin-right: 17px;
+    
     margin-bottom: 10px;
     border: 10px solid lightskyblue;
     opacity: 0.8;
     padding: 0;  
+}
+.button2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZZ0ovNq97M0wPZje_8SAnOLoE3iVcDPd3Hg&usqp=CAU);
+    
     
 }
 .button3{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYx35gBmkErqmrPKGHQriq1OJiRIidQyU3GA&usqp=CAU);
-    width: 49%;
-    height: 150px;
-    border: 10px solid lightskyblue;
-    opacity: 0.8;
-    padding: 0; 
+   
+    
 }
 .button4{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG49Zb2Y_NoHw3muShELHhgUbGXIo_4JE6eQ&usqp=CAU);
-    width: 49%;
-    height: 150px;
-    margin-right: 17px;
-    border: 10px solid lightskyblue;
-    opacity: 0.8;
-    padding: 0; 
+    
 
 }
 .button5{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDsKBhK2Q8NxPla5BEgz5OR9bCDhodEtH3Sg&usqp=CAU);
-    width: 49%;
-    height: 150px;
-    border: 10px solid lightskyblue;
-    opacity: 0.8;
-    padding: 0; 
 }
-.div1 {
+.portfolio-project div, .div1 {
     word-wrap:break-word;
     background-color: lightskyblue;
     width:100px;
     height:45px;
     padding: 10px;
+    margin-bottom: 10px; 
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    margin-bottom: 10px;
+    
 }
 .div2 {
     
     word-wrap: break-word;
     background-color: lightskyblue;
-    width:100px;
+    width:150px;
     height:45px;
     text-align: center;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin-bottom: 10px;
-    margin-top: 55px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .div3{
     
     word-wrap: break-word;
     background-color: lightskyblue;
-    width: 70px;
+    width: 150px;
     height:45px;
     text-align: center;
     padding: 10px;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
     
 }
 .div4{
@@ -217,7 +212,7 @@ border-left: 5px solid lightskyblue;
 /*Formatting for the footer and its placement/style on the page*/
 footer {
     float: right;
-    width: 79.6%;
+    width: 74.8%;
     border-left: 5px solid lightskyblue ;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -251,27 +246,67 @@ cursor: pointer;
     cursor: pointer;
 }
 /*Media query for the page when opened on a mobile device*/
-@media screen and (max-width:480px) {
-    .text{
-        font-size: 12px;
-    
+@media screen and (max-width:1200px) {
+    #header-2 {
+        margin-top: 320px;
+    }   
+    footer {
+        width: 74.7%;
     }
+}
+@media screen and (max-width:1024px) {
+    footer{
+        width: 74.5%;
+    }
+    #header-2{
+        margin-top: 350px;
+    }
+} 
+    
+
+@media screen and (max-width:768px){
     main{
-        width: 50%;
+        width: 60%;
+    }
+    aside {
+        width: 30%;
+        padding-bottom: 200px;
+    }
+    footer{
+        width: 59.5%;
+    }
+    #header-2{
+        margin-top:550px;
+    }
+    #header-3{
+        margin-top: 700px;
+    }
+    .button3 {
+        margin-bottom: 10px;
+    }
+    .button4 {
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    
+    main{
+        width: 60%;
         
     }
     aside{
         width: 30%;
+        padding-bottom: 250px;
     }
     #header-2{
-        margin-top: 1250px;
+       margin-top: 950px;
     }
-    #header-3
-    {
+    #header-3{
         margin-top: 1000px;
     }
     footer{
-        width: 50%;
+        width: 58.8%;
     }
     .button1{
         width:200px;
@@ -292,28 +327,4 @@ cursor: pointer;
         width:200px;
         margin-bottom: 10px;
     }
-}
-@media screen and (max-width:768px){
-    main{
-        width: 60%;
-    }
-    aside {
-        width: 30%;
-    }
-    footer{
-        width: 59.5%;
-    }
-    #header-2{
-        margin-top:550px;
-    }
-    #header-3{
-        margin-top: 1000px;
-    }
-    .button3 {
-        margin-bottom: 10px;
-    }
-    .button4 {
-        margin-bottom: 10px;
-    }
-    
 }
