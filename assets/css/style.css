@@ -127,7 +127,6 @@ border-left: 5px solid lightskyblue;
 .portfolio-project{
     width: 49%;
     height: 150px;
-    
     margin-bottom: 10px;
     border: 10px solid lightskyblue;
     opacity: 0.8;
@@ -162,7 +161,7 @@ border-left: 5px solid lightskyblue;
     flex-direction: column;
     
 }
-.div2 {
+.div2, .div3 {
     
     word-wrap: break-word;
     background-color: lightskyblue;
@@ -176,21 +175,7 @@ border-left: 5px solid lightskyblue;
     flex-direction: column;
 }
 
-.div3{
-    
-    word-wrap: break-word;
-    background-color: lightskyblue;
-    width: 150px;
-    height:45px;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    
-}
-.div4{
-    
+.div4, .div5{
     word-wrap: break-word;
     background-color: lightskyblue;
     width:100px;
@@ -199,16 +184,7 @@ border-left: 5px solid lightskyblue;
     padding: 10px;
     margin-top: 40px;
 }
-.div5{
     
-    word-wrap: break-word;
-    background-color: lightskyblue;
-    width:100px;
-    height:45px;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-}
 /*Formatting for the footer and its placement/style on the page*/
 footer {
     float: right;
