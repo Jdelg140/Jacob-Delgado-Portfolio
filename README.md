@@ -8,3 +8,12 @@ Images of deployed website:
 ![module2image2](https://user-images.githubusercontent.com/128998284/231895117-40c8e038-c12d-4e2d-8f33-35dd3a78f6ef.PNG)
 
 [Link to Website](https://jdelg140.github.io/Jacob-Delgado-Portfolio/)
+
+
+
+"So basically we imagined having the latest standings on Premier League soccer and Formula 1 racing directly at the fingertips of sports fans much like ourselves. With this project, we created a live tracker website that provides real-time standings for both of these sports. In order to stay on top of the action, you can track your favorite teams/drivers, and never miss a beat with our simple interface. Whether you're a soccer fanatic or an adrenaline junkie, this website brings the excitement of these sports directly to the user. So join the league of sports enthusiasts and explore the world of live standings like you never have before!"
+
+Don't need to make an account
+No remembering passwords
+No subscription you get everything for free
+
